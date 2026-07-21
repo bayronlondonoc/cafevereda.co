@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- MANUAL INTERNO — NO INDEXAR -->
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Manual de Marca</title>
+<script>
+/* ============================================================
+   BRAND DATA — Claude reemplaza este objeto con el contenido
+   real de brand-[Marca].json (el JSON completo, sin editar).
+   ============================================================ */
+const BRAND = {
+  "meta": {
+    "version": "1.0",
+    "generated_date": "2026-07-05",
+    "source_brief": "brief-VEREDA.docx",
+    "language": "es"
+  },
+  "brand": {
+    "name": "VEREDA",
+    "short_name": "VEREDA",
+    "industry": "Café de especialidad",
+    "subcategory": "Café colombiano de origen · grano y molido · 340 g",
+    "tagline": "El origen se honra compartiéndolo.",
+    "mission": "Ofrecer café colombiano de origen que honre el territorio y conecte personas a través de experiencias auténticas, cercanas y humanas.",
+    "vision": "Ser la marca referente de café premium colombiano, reconocida por representar el origen, la conexión humana y el respeto por el territorio en experiencias de viaje y hospitalidad.",
+    "purpose": "Crear un café que represente el origen, las relaciones humanas y el progreso compartido.",
+    "brand_story": "En 1998, don José vendió su Jeep Willys y compró una finca cerca de Sevilla, Valle, para sembrar café. Hoy su familia sostiene ese legado, y VEREDA lo comparte: un café de origen que acompaña conversaciones, en bolsas que narran los territorios de Colombia. Porque el origen se honra compartiéndolo.",
+    "target_market": "Consumidores premium conscientes en Colombia (B2C) y hospitalidad boutique: hoteles, Airbnbs premium, retail selecto y regalos corporativos (B2B).",
+    "ideal_customer": {
+      "age_range": "28–55",
+      "gender": "Mixto",
+      "location": "Colombia urbana (Medellín, Bogotá) + viajeros y turistas en circuitos de hospitalidad boutique",
+      "income_level": "Medio-alto · premium accesible",
+      "interests": ["Café de origen", "Viajes con sentido", "Diseño y objetos coleccionables", "Slow living", "Territorio colombiano"],
+      "pain_points": ["Marcas vacías de discurso", "Productos pretenciosos con jerga técnica", "Falta de autenticidad y trazabilidad"],
+      "aspirations": ["Consumir productos con sentido", "Conectarse con el territorio", "Compartir momentos de calidad", "Llevarse Colombia a casa o regalarla"]
+    }
+  },
+  "brand_personality": {
+    "archetype": "El Explorador",
+    "archetype_secondary": "El Creador",
+    "human_traits": ["Cercana", "Sobria", "Auténtica", "Serena", "Confiable"],
+    "values": [
+      "Autenticidad — mostramos lo real: la finca, las manos, el proceso, sin adornos",
+      "Servicio — actuamos como anfitriones: recibir, servir y contar la historia",
+      "Empatía — entendemos personas, territorios y realidades",
+      "Transparencia — honestidad y ética en cada relación",
+      "Progreso compartido — cada venta sostiene la finca de don José y su familia"
+    ],
+    "emotions_to_generate": ["Calma", "Pertenencia", "Orgullo sereno", "Calidez de hospitalidad", "Curiosidad por el territorio"],
+    "brand_voice": {
+      "tone": ["Cálido", "Conversacional", "Sobrio", "Contemplativo", "Íntimo"],
+      "communication_style": "Habla en «nosotros», con frases cortas y silencios narrativos. Como un anfitrión de finca: invita a sentarse, guía sin imponer, explica sin pretensión. Traduce la ficha técnica a sensaciones. Nunca vende con presión.",
+      "words_to_use": ["origen", "vereda", "territorio", "pausa", "conversación", "encuentro", "compartir", "finca", "camino", "cosecha", "colección", "panela", "sembrar"],
+      "words_to_avoid": ["el mejor café de Colombia", "oferta imperdible", "descuento", "gourmet", "pasión por la excelencia", "calidad garantizada", "notas de fermentación anaeróbica", "experiencia premium única"]
+    }
+  },
+  "non_negotiables": [
+    "Nunca folclor forzado ni una Colombia decorada para vender",
+    "Nunca prometer notas, origen o procesos que no correspondan al lote real",
+    "Nunca guerra de precios ni descuentos que degraden el posicionamiento premium",
+    "Crecer lento manteniendo trazabilidad y esencia antes que escalar sacrificando la finca",
+    "Comunicación honesta: se admiten lotes limitados y variaciones de cosecha; no se ocultan"
+  ],
+  "visual_identity": {
+    "style": "Minimalismo ancestral colombiano — campesino moderno: rural y elegante, nunca rústico ni industrial",
+    "keywords": ["sobrio", "aireado", "ancestral", "territorial", "cálido", "elegante"],
+    "design_principles": [
+      "El territorio es el protagonista; la marca firma discreto",
+      "Aire y espacio negativo siempre — una sola idea por pieza",
+      "Ilustración de línea fina: palma de cera, montañas, geometrías territoriales",
+      "Nada de folclor decorativo ni estética comercial de supermercado"
+    ],
+    "visual_feelings": ["tranquila", "confiable", "sobria", "real"]
+  },
+  "logo": {
+    "concept": "Wordmark VEREDA en serif sobria y espaciada, con un símbolo mínimo: una palma de cera en línea fina entre dos montañas geométricas y el camino de la vereda al centro.",
+    "symbolism": "La palma de cera es Colombia; las montañas, el origen a 1.750 msnm; el camino, la vereda que don José dejó de andar para sembrar.",
+    "type": "Isologo (wordmark + símbolo) con versión sello circular «Café de origen · Sevilla, Valle» para empaques",
+    "usage_notes": [
+      "Sobre Verde Palma o fotografía: versión Blanco Roto",
+      "Sobre Arena o Blanco Roto: versión Verde Palma o Tinta Cálida",
+      "Nunca sobre Panela ni sobre fotos saturadas",
+      "No incluir taza o grano literal, escudos, cintas ni folclor decorativo"
+    ]
+  },
+  "colors": {
+    "primary": { "name": "Verde Palma", "hex": "#2E4B3A", "meaning": "Las montañas cafeteras y la palma de cera: identidad, fondos dominantes y empaque RAÍZ" },
+    "secondary": [
+      { "name": "Verde Musgo", "hex": "#7C8C6E", "meaning": "La vegetación suave del cafetal: secciones, ilustración de línea" },
+      { "name": "Café Tierra", "hex": "#6B4A35", "meaning": "El suelo y el grano tostado: detalles, sellos, texto sobre fondos claros" }
+    ],
+    "neutral_colors": [
+      { "name": "Arena Natural", "hex": "#EFE7DA", "usage": "Fondos de texto, aire entre secciones" },
+      { "name": "Blanco Roto", "hex": "#FAF7F1", "usage": "Fondo web y papelería" },
+      { "name": "Tinta Cálida", "hex": "#1F1D1A", "usage": "Texto principal" }
+    ],
+    "accent_colors": [
+      { "name": "Panela", "hex": "#C88A4B", "usage": "CTAs, highlights, hilos y detalles de empaque" }
+    ],
+    "proportions": "60% Verde Palma y neutros claros · 30% secundarios · 10% Panela (acento)",
+    "combinations": {
+      "approved": [
+        { "fg": "#FAF7F1", "bg": "#2E4B3A", "usage": "Héroes, portadas, empaques" },
+        { "fg": "#1F1D1A", "bg": "#EFE7DA", "usage": "Texto largo y secciones de lectura" },
+        { "fg": "#1F1D1A", "bg": "#C88A4B", "usage": "Botones y CTAs" }
+      ],
+      "prohibited": [
+        { "fg": "#7C8C6E", "bg": "#EFE7DA", "reason": "Bajo contraste — se pierde" },
+        { "fg": "#6B4A35", "bg": "#2E4B3A", "reason": "Oscuro sobre oscuro" },
+        { "fg": "#FFFFFF", "bg": "#C88A4B", "reason": "Contraste insuficiente para texto" }
+      ]
+    },
+    "gradients": []
+  },
+  "collections": [
+    {
+      "name": "VEREDA · RAÍZ",
+      "concept": "Línea permanente: el café que sostiene las conversaciones importantes. Usa la paleta base de la marca.",
+      "palette": [
+        { "name": "Verde Palma", "hex": "#2E4B3A" },
+        { "name": "Arena Natural", "hex": "#EFE7DA" },
+        { "name": "Panela", "hex": "#C88A4B" }
+      ]
+    },
+    {
+      "name": "VEREDA · ORIGEN",
+      "concept": "Lotes limitados y numerados: un origen que se descubre. Paleta más profunda con dorado suave.",
+      "palette": [
+        { "name": "Tinta Cálida", "hex": "#1F1D1A" },
+        { "name": "Café Tierra", "hex": "#6B4A35" },
+        { "name": "Dorado Cosecha", "hex": "#C9A227" }
+      ]
+    },
+    {
+      "name": "Sistema Territorio — ej. Colección Sevilla",
+      "concept": "Cada colección narra un territorio de Colombia con ilustración y paleta propia derivada del universo base. Sevilla, la primera, honra la finca de origen.",
+      "palette": [
+        { "name": "Verde Cafetal", "hex": "#4A6B4F" },
+        { "name": "Cereza de Café", "hex": "#A6423A" },
+        { "name": "Arena Natural", "hex": "#EFE7DA" }
+      ]
+    }
+  ],
+  "typography": {
+    "primary": { "font_name": "Cormorant Garamond", "usage": "Títulos H1–H3, frases display, empaques", "weights": ["600", "700"], "personality": ["ancestral", "elegante", "editorial", "sobria"] },
+    "secondary": { "font_name": "Jost", "usage": "Párrafos, UI, captions, fichas de producto", "weights": ["300", "400", "500"], "personality": ["moderna", "aireada", "geométrica", "limpia"] },
+    "hierarchy": {
+      "h1": "Cormorant Garamond 600 · 48–72px · tracking amplio",
+      "h2": "Cormorant Garamond 600 · 32–40px",
+      "body": "Jost 400 · 16–18px · line-height 1.7",
+      "caption": "Jost 500 · 12–13px · mayúsculas espaciadas (labels de territorio)"
+    }
+  },
+  "photography": {
+    "style": "Editorial humana: la finca, la mesa, la pausa. Escenas reales de conversación y hospitalidad con encuadres aireados.",
+    "subjects": ["Manos reales trabajando el café", "La finca y las montañas de Sevilla, Valle", "Mesas con café servido y conversación", "La bolsa de colección en contexto real", "Catalina y la familia en el proceso"],
+    "lighting": "Luz natural de mañana, sombras suaves",
+    "composition": "Aireada, con espacio negativo; el sujeto respira; nada centrado-comercial",
+    "editing_style": "Cálida y contenida: verdes profundos, nada saturado ni HDR",
+    "color_treatment": "Verdes y tierras de la paleta; blancos cálidos; sin filtros de tendencia",
+    "avoid": ["Stock genérico", "Folclor posado", "Bodegones comerciales con humo artificial", "Sobreproducción publicitaria"]
+  },
+  "keyvisual": {
+    "post_types": [
+      { "name": "La Pausa (foto + frase)", "composition": "Foto real a sangre, frase corta en Cormorant sobre Blanco Roto, logo pequeño en esquina inferior" },
+      { "name": "Palabra de Vereda (color + tipografía)", "composition": "Fondo Verde Palma sólido, frase display grande centrada, firma VEREDA abajo" },
+      { "name": "La Colección (producto editorial)", "composition": "Bolsa protagonista sobre fondo Arena, label del territorio rotado 90° al costado, franja con la paleta de la colección" },
+      { "name": "El Proceso (carrusel educativo)", "composition": "Serie foto + texto corto: cosecha, tostión, molienda; ficha traducida a sensaciones" }
+    ],
+    "support_elements": ["Label vertical de territorio (SEVILLA, ORIGEN, RAÍZ)", "Sello circular «Café de origen · Sevilla, Valle»", "Textura sutil de papel / grano fino"],
+    "content_labels": ["ORIGEN", "RITUAL", "COLECCIÓN", "ENCUENTRO"],
+    "instagram_grid": "Alternancia foto–color–producto; el Arena da aire; nunca dos posts de producto seguidos"
+  },
+  "content_strategy": {
+    "main_topics": ["Historias del origen y de don José", "Proceso de tostión y molienda", "Ritual de preparación y momentos de café", "Las colecciones de bolsas y su diseño", "El campo colombiano", "Recetas con café de especialidad", "Detrás de cámaras del proceso"],
+    "content_pillars": ["Origen (historia y territorio)", "Ritual (preparación y pausa)", "Colección (diseño y bolsas)", "Encuentro (hospitalidad y conversación)"],
+    "customer_journey": {
+      "awareness": ["Reels del territorio y la historia de don José", "La Pausa: frases + fotografía real"],
+      "consideration": ["El Proceso: carruseles educativos", "Ficha del lote traducida a sensaciones", "Presencia en hoteles boutique"],
+      "decision": ["CTA WhatsApp directo", "Kits de regalo y colección", "Reseñas de hospitalidad"],
+      "loyalty": ["Lanzamiento de nuevas colecciones de territorio", "Contenido del ciclo de cosecha", "Comunidad de coleccionistas"]
+    }
+  },
+  "social_media": {
+    "instagram_style": "Ritual y poético, 3–6 líneas, keyvisuales La Pausa / Palabra de Vereda / La Colección; 10 hashtags con SEO de café de especialidad y Colombia",
+    "facebook_style": "Reutiliza Instagram con más contexto: historia completa, alianzas B2B y puntos de venta",
+    "linkedin_style": "Sobrio y estratégico: la historia de marca, alianzas de hospitalidad y progreso compartido con la finca",
+    "tiktok_style": "Hook sensorial rápido («el café que huele a Colombia»), cortes lentos y contemplativos, 5 hashtags, CTA «Link en bio» o «Escríbenos»",
+    "youtube_style": "Mini-documentales del origen: la finca, la familia, el proceso — piezas de 3–6 minutos"
+  },
+  "messaging": {
+    "elevator_pitch": "VEREDA es café colombiano de origen que convierte cada bolsa en una pieza de colección: un territorio de Colombia en tu mesa, para acompañar las conversaciones que importan.",
+    "value_proposition": "VEREDA es café colombiano de origen para la pausa y la conversación. Cada bolsa es una pieza de colección que narra un territorio de Colombia.",
+    "unique_selling_points": [
+      "Historia real y trazable: la finca de don José en Sevilla, Valle del Cauca (1.750 msnm)",
+      "Bolsas coleccionables que narran los territorios de Colombia",
+      "Lote galardonado: tercer puesto entre los mejores cafés de Colombia",
+      "Control del proceso: tostión, molienda y empaque propios"
+    ],
+    "brand_promises": [
+      "Un café que acompaña sin robarse la mesa",
+      "Origen honesto: lo que dice la bolsa es lo que hay en ella",
+      "Cada colección, una forma nueva de conocer Colombia"
+    ],
+    "key_messages": [
+      "El origen se honra compartiéndolo.",
+      "Café para sentarse y conversar.",
+      "Donde el café se vuelve encuentro.",
+      "Un territorio de Colombia en tu mesa."
+    ],
+    "whatsapp_greeting": "Hola, bienvenido a VEREDA. Este café nace en una finca cerca de Sevilla, Valle del Cauca, y está hecho para acompañar buenas conversaciones. Cuéntanos: ¿es para ti, para regalar o para tu hotel o espacio?"
+  },
+  "customer_experience": {
+    "desired_feelings": ["Calma", "Pertenencia", "Orgullo sereno", "Hospitalidad genuina"],
+    "service_style": "Anfitrión de finca: recibe, sirve, cuenta la historia; nunca vende con presión",
+    "customer_relationship": "Cercana y de largo plazo: el cliente colecciona, regresa y regala",
+    "experience_keywords": ["pausa", "encuentro", "territorio", "ritual", "colección"]
+  },
+  "competitors": {
+    "direct_competitors": [
+      "La Tienda del Café — retail multimarca con gran surtido; VEREDA es una sola historia con trazabilidad y diseño coleccionable",
+      "Café San Alberto — premium ceremonioso y técnico; VEREDA es humana, sobria y conversacional"
+    ],
+    "indirect_competitors": [
+      "Juan Valdez — masivo, Colombia comercial",
+      "Cafés premium de supermercado"
+    ],
+    "differentiators": [
+      "La bolsa como pieza de colección que narra un territorio",
+      "Historia real de familia y finca, no storytelling fabricado",
+      "Posicionamiento en hospitalidad boutique, no en vitrina masiva"
+    ]
+  },
+  "brand_keywords": ["café de especialidad Colombia", "café colombiano de origen", "café artesanal Colombia", "tostión artesanal", "specialty coffee Colombia", "comprar café colombiano", "café premium Colombia", "café origen Sevilla Valle", "bolsas coleccionables de café", "ritual de café"],
+  "applications": {
+    "business_card": "Frente: sello sobre Arena. Reverso: Verde Palma con WhatsApp y web. Canva Print.",
+    "letterhead": "Header: wordmark + línea Panela. Footer: tagline. Canva Pro.",
+    "email_signature": "Logo + nombre + «Café de origen colombiano» + WhatsApp; separador Panela. Canva Pro.",
+    "video_call_background": "Verde Palma con sello en esquina y textura de papel sutil. Canva Pro → Google Meet.",
+    "social_profile": "Sello VEREDA sobre Verde Palma con margen limpio. Bio = propuesta de valor + WhatsApp.",
+    "billboard": "1 frase display sobre Verde Palma + sello; legible a 30 metros en 3 segundos.",
+    "merchandising": "Empaque 340 g: ilustración de colección protagonista + sello de origen + ficha en sensaciones. Kit hospitalidad: bolsa + tarjeta de la historia de don José + guía de preparación."
+  },
+  "web": {
+    "ui_style": "Organic Biophilic",
+    "ui_style_note": "Uno de los 67 estilos del brand-to-web skill (reference/11)",
+    "layout_hint": "Secciones amplias con mucho aire, curvas orgánicas suaves, fotografía a sangre alternada con bloques Arena; storytelling vertical del origen",
+    "effects_hint": ["Scroll reveal suave", "Parallax sutil en héroes", "Textura de grano/papel de fondo"],
+    "background_hex": "#FAF7F1",
+    "text_hex": "#1F1D1A",
+    "pages": ["Inicio", "El Origen (historia de don José y la finca)", "El Café (producto y ficha del lote)", "Colecciones", "Hospitalidad y experiencias (B2B)", "Contacto / WhatsApp"],
+    "cta_primary": "Pedir por WhatsApp",
+    "anti_patterns": ["Popups y urgencia artificial", "Carruseles automáticos", "Estética de e-commerce masivo", "Folclor decorativo", "Contadores de descuento"]
+  },
+  "ai_guidelines": {
+    "image_generation_prompt": "Editorial photograph for VEREDA, a premium Colombian single-origin coffee brand. Natural morning light, real hands and faces of coffee farmers, wooden table with a served cup of coffee, Colombian mountain landscape near Sevilla, Valle del Cauca. Color palette: deep palm green (#2E4B3A), natural sand (#EFE7DA), earth brown (#6B4A35), warm panela accent (#C88A4B). Calm, sober, warm, airy composition with generous negative space. Modern-rural elegance, never rustic or industrial. No stock-photo look, no oversaturation, no flying coffee beans, no artificial smoke.",
+    "copywriting_prompt": "Escribe como VEREDA, café colombiano de origen. Tono cálido, conversacional, sobrio y contemplativo. Frases cortas, silencios narrativos, habla en «nosotros». Sin jerga de barista, sin superlativos comerciales, sin urgencia de venta. El café acompaña; los protagonistas son el territorio, la pausa y la conversación. Estructura: hook sensorial o reflexivo → el ritual o la experiencia → el origen (la finca de don José en Sevilla, Valle) → invitación a la pausa o a la colección. Cierra con el tagline cuando aplique: «El origen se honra compartiéndolo.»",
+    "design_prompt": "Minimalismo ancestral colombiano: mucho aire, Cormorant Garamond para títulos, Jost para textos, paleta Verde Palma #2E4B3A / Arena #EFE7DA / Panela #C88A4B, ilustración de línea fina (palma de cera, montañas, caminos), textura de papel sutil. Rural y elegante — campesino moderno. Nunca rústico, industrial ni comercial.",
+    "forbidden_elements": ["Folclor forzado o Colombia decorada", "Granos de café voladores y humo artificial", "Descuentos, urgencia y contadores", "Jerga técnica de barista", "Estética de supermercado"],
+    "required_elements": ["Sello de origen «Sevilla, Valle»", "Aire y espacio negativo generoso", "Paleta base de la marca", "Ilustración de línea territorial", "Tagline cuando aplique"]
+  }
+};
+</script>
+<style>
+:root{
+  --primary:#1B3A2D; --secondary:#7A9E7E; --accent:#C4622D;
+  --bg:#F8F6F2; --ink:#1A1A1A; --soft:#77716A; --card:#FFFFFF;
+  --font-display:'Georgia',serif; --font-body:'Helvetica Neue',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 32px}
+h1,h2,h3{font-family:var(--font-display);font-weight:600;line-height:1.15}
+section{padding:88px 0;border-bottom:1px solid rgba(0,0,0,.07)}
+.num{font-family:var(--font-body);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);font-weight:700;display:block;margin-bottom:14px}
+h2{font-size:clamp(28px,4vw,44px);margin-bottom:36px}
+h3{font-size:19px;margin:34px 0 12px;color:var(--primary)}
+p{max-width:680px;color:var(--ink)}
+.soft{color:var(--soft);font-size:15px}
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--card);border-radius:14px;padding:26px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.tag{display:inline-block;padding:6px 14px;border-radius:99px;font-size:13px;margin:4px 6px 4px 0;background:var(--card);border:1px solid rgba(0,0,0,.1)}
+.tag.no{border-color:transparent;background:rgba(0,0,0,.05);color:var(--soft);text-decoration:line-through}
+/* HERO */
+#hero{min-height:78vh;display:flex;align-items:center;background:var(--primary);color:#fff;border:none}
+#hero .inner{padding:120px 0}
+#hero .k{font-size:12px;letter-spacing:.3em;text-transform:uppercase;opacity:.65;margin-bottom:22px}
+#hero h1{font-size:clamp(48px,9vw,110px);color:#fff}
+#hero .tagline{font-size:clamp(17px,2.4vw,24px);opacity:.85;margin-top:18px;font-style:italic;max-width:640px}
+#hero .meta{margin-top:56px;font-size:13px;opacity:.55;letter-spacing:.08em}
+/* COLOR */
+.swatches{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+.sw{border-radius:14px;min-height:190px;display:flex;flex-direction:column;justify-content:flex-end;padding:18px;cursor:pointer;transition:transform .25s;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.sw:hover{transform:translateY(-4px)}
+.sw b{font-size:15px}
+.sw span{font-size:13px;opacity:.85;font-family:monospace}
+.sw small{font-size:11.5px;opacity:.7;margin-top:4px}
+.combo{display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:10px;margin-bottom:10px;background:var(--card)}
+.combo .chip{width:46px;height:30px;border-radius:6px;border:1px solid rgba(0,0,0,.12);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700}
+.combo.bad{opacity:.7}
+.combo.bad .chip{filter:grayscale(.4)}
+/* TIPOGRAFÍA */
+.type-card .big{font-size:clamp(40px,6vw,72px);line-height:1.05;margin:8px 0 14px;font-weight:600}
+.type-card .alpha{font-size:17px;letter-spacing:.04em;color:var(--soft);word-break:break-all}
+/* VOZ */
+.voice-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+blockquote{border-left:4px solid var(--accent);padding:6px 0 6px 20px;font-family:var(--font-display);font-size:20px;font-style:italic;color:var(--primary);margin:18px 0;max-width:640px}
+/* KEYVISUAL / APPS / LISTAS */
+.kv .card b{color:var(--primary)}
+ul.clean{list-style:none}
+ul.clean li{padding:9px 0;border-bottom:1px dashed rgba(0,0,0,.09);font-size:15px}
+ul.clean li b{color:var(--primary)}
+/* FOOTER */
+footer{padding:56px 0;text-align:center;font-size:12.5px;color:var(--soft);letter-spacing:.05em}
+.toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--ink);color:#fff;padding:10px 22px;border-radius:99px;font-size:13px;transition:transform .3s;z-index:99}
+.toast.on{transform:translateX(-50%) translateY(0)}
+@media(max-width:640px){section{padding:60px 0}.wrap{padding:0 20px}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div class="toast" id="toast">HEX copiado</div>
+<script>
+(function(){
+  const B = BRAND;
+  if(!B || !B.brand){ document.getElementById('app').innerHTML='<div class="wrap" style="padding:80px 0"><h2>Sin datos de marca</h2><p class="soft">Reemplaza el objeto BRAND con el JSON de la marca.</p></div>'; return; }
+
+  // ---- Helpers ----
+  const esc = s => String(s??'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const lum = hex => { const h=(hex||'').replace('#',''); if(h.length<6) return 0;
+    const r=parseInt(h.substr(0,2),16),g=parseInt(h.substr(2,2),16),b=parseInt(h.substr(4,2),16);
+    return (0.299*r+0.587*g+0.114*b)/255; };
+  const inkOn = hex => lum(hex)>0.6 ? '#1A1A1A' : '#FFFFFF';
+  const list = (arr,cls='') => (arr||[]).filter(Boolean).map(x=>`<span class="tag ${cls}">${esc(x)}</span>`).join('');
+  const li = (arr,fmt) => (arr||[]).map(fmt).join('');
+
+  // ---- CSS vars desde la marca ----
+  const c = B.colors||{};
+  const R = document.documentElement.style;
+  if(c.primary?.hex) R.setProperty('--primary', c.primary.hex);
+  if(c.secondary?.[0]?.hex) R.setProperty('--secondary', c.secondary[0].hex);
+  if(c.accent_colors?.[0]?.hex) R.setProperty('--accent', c.accent_colors[0].hex);
+  const neutrals=c.neutral_colors||[];
+  const bgN=neutrals.find(n=>lum(n.hex)>0.85), inkN=neutrals.find(n=>lum(n.hex)<0.3);
+  if(bgN) R.setProperty('--bg', bgN.hex);
+  if(inkN) R.setProperty('--ink', inkN.hex);
+
+  // ---- Google Fonts dinámico ----
+  const ty=B.typography||{};
+  const fonts=[ty.primary?.font_name, ty.secondary?.font_name].filter(Boolean);
+  if(fonts.length){
+    const link=document.createElement('link'); link.rel='stylesheet';
+    link.href='https://fonts.googleapis.com/css2?'+fonts.map(f=>'family='+f.trim().replace(/ /g,'+')+':wght@300;400;600;700').join('&')+'&display=swap';
+    document.head.appendChild(link);
+    if(ty.primary?.font_name) R.setProperty('--font-display', `'${ty.primary.font_name}', serif`);
+    if(ty.secondary?.font_name) R.setProperty('--font-body', `'${ty.secondary.font_name}', sans-serif`);
+  }
+  document.title = `Manual de Marca — ${B.brand.name||''}`;
+
+  // ---- Swatches: todos los colores ----
+  const allColors=[];
+  if(c.primary?.hex) allColors.push({...c.primary, rol:'Primario'});
+  (c.secondary||[]).forEach(x=>x.hex&&allColors.push({...x, rol:'Secundario'}));
+  (c.accent_colors||[]).forEach(x=>x.hex&&allColors.push({...x, rol:'Acento'}));
+  (c.neutral_colors||[]).forEach(x=>x.hex&&allColors.push({...x, rol:'Neutro'}));
+  const swatches = allColors.map(x=>`
+    <div class="sw" style="background:${esc(x.hex)};color:${inkOn(x.hex)}" data-hex="${esc(x.hex)}">
+      <b>${esc(x.name||x.rol)}</b><span>${esc(x.hex)}</span>
+      <small>${esc(x.rol)}${x.meaning?' — '+esc(x.meaning):(x.usage?' — '+esc(x.usage):'')}</small>
+    </div>`).join('');
+
+  const combos = (arr,bad)=> (arr||[]).map(x=>`
+    <div class="combo ${bad?'bad':''}">
+      <div class="chip" style="background:${esc(x.bg)};color:${esc(x.fg)}">Aa</div>
+      <div style="font-size:14px">${bad?'✕ ':''}<code>${esc(x.fg)}</code> sobre <code>${esc(x.bg)}</code>
+      <span class="soft"> — ${esc(bad?x.reason:x.usage)}</span></div>
+    </div>`).join('');
+
+  const collections = (B.collections||[]).filter(x=>x.name).map(x=>`
+    <div class="card"><b style="color:var(--primary)">${esc(x.name)}</b>
+      <p class="soft" style="margin:6px 0 12px">${esc(x.concept)}</p>
+      <div style="display:flex;gap:8px">${(x.palette||[]).map(p=>`<div class="sw" style="background:${esc(p.hex)};color:${inkOn(p.hex)};min-height:64px;flex:1;padding:8px" data-hex="${esc(p.hex)}"><span>${esc(p.hex)}</span></div>`).join('')}</div>
+    </div>`).join('');
+
+  const bp=B.brand_personality||{}, voice=bp.brand_voice||{};
+  const kv=B.keyvisual||{}, ph=B.photography||{}, msg=B.messaging||{}, apps=B.applications||{}, web=B.web||{}, lg=B.logo||{};
+  const appEntries=Object.entries(apps).filter(([k,v])=>v);
+  const appNames={business_card:'Tarjeta de presentación',letterhead:'Membrete',email_signature:'Firma de email',video_call_background:'Fondo de videollamada',social_profile:'Perfil de redes',billboard:'Valla / OOH',merchandising:'Merchandising'};
+
+  // ---- Render ----
+  document.getElementById('app').innerHTML = `
+  <section id="hero"><div class="wrap inner">
+    <div class="k">Manual de Identidad de Marca</div>
+    <h1>${esc(B.brand.name)}</h1>
+    <div class="tagline">${esc(B.brand.tagline)}</div>
+    <div class="meta">${esc(B.brand.industry)} · v${esc(B.meta?.version||'1.0')} · ${esc(B.meta?.generated_date||'')} · Documento interno</div>
+  </div></section>
+
+  <section><div class="wrap">
+    <span class="num">01 · Esencia</span><h2>La marca</h2>
+    <p>${esc(B.brand.purpose||B.brand.mission)}</p>
+    ${msg.value_proposition?`<blockquote>${esc(msg.value_proposition)}</blockquote>`:''}
+    <div class="grid g2" style="margin-top:28px">
+      <div class="card"><h3 style="margin-top:0">Cliente ideal</h3><p class="soft">${esc(B.brand.target_market)}</p></div>
+      <div class="card"><h3 style="margin-top:0">Arquetipo</h3><p><b>${esc(bp.archetype)}</b>${bp.archetype_secondary?` · secundario: ${esc(bp.archetype_secondary)}`:''}</p>
+      <div style="margin-top:10px">${list(bp.human_traits)}</div></div>
+    </div>
+    ${(B.non_negotiables||[]).length?`<h3>No negociables</h3><ul class="clean">${li(B.non_negotiables,x=>`<li>${esc(x)}</li>`)}</ul>`:''}
+  </div></section>
+
+  <section><div class="wrap">
+    <span class="num">02 · Voz</span><h2>Cómo hablamos</h2>
+    <p class="soft">${esc(voice.communication_style)}</p>
+    <div style="margin:16px 0 8px">${list(voice.tone)}</div>
+    <div class="voice-cols" style="margin-top:24px">
+      <div class="card"><h3 style="margin-top:0">Decimos</h3>${list(voice.words_to_use)}</div>
+      <div class="card"><h3 style="margin-top:0">Nunca decimos</h3>${list(voice.words_to_avoid,'no')}</div>
+    </div>
+    ${msg.whatsapp_greeting?`<h3>Saludo WhatsApp</h3><blockquote>${esc(msg.whatsapp_greeting)}</blockquote>`:''}
+  </div></section>
+
+  <section><div class="wrap">
+    <span class="num">03 · Color</span><h2>Paleta</h2>
+    <p class="soft" style="margin-bottom:24px">Clic en cualquier color para copiar el HEX. Proporción: <b>${esc(c.proportions)}</b></p>
+    <div class="swatches">${swatches}</div>
+    ${(c.combinations?.approved||[]).length?`<h3>Combinaciones aprobadas</h3>${combos(c.combinations.approved,false)}`:''}
+    ${(c.combinations?.prohibited||[]).length?`<h3>Combinaciones prohibidas</h3>${combos(c.combinations.prohibited,true)}`:''}
+    ${collections?`<h3>Colecciones con paleta propia</h3><div class="grid g2">${collections}</div>`:''}
+  </div></section>
+
+  <section><div class="wrap">
+    <span class="num">04 · Tipografía</span><h2>Sistema tipográfico</h2>
+    <div class="grid g2">
+      <div class="card type-card">
+        <span class="soft">Display · ${esc(ty.primary?.usage)}</span>
+        <div class="big" style="font-family:var(--font-display)">${esc(ty.primary?.font_name)}</div>
+        <div class="alpha" style="font-family:var(--font-display)">AaBbCcDdEeFfGg 0123456789</div>
+      </div>
+      <div class="card type-card">
+        <span class="soft">Body · ${esc(ty.secondary?.usage)}</span>
+        <div class="big" style="font-family:var(--font-body)">${esc(ty.secondary?.font_name)}</div>
+        <div class="alpha" style="font-family:var(--font-body)">AaBbCcDdEeFfGg 0123456789</div>
+      </div>
+    </div>
+    ${ty.hierarchy?`<ul class="clean" style="margin-top:22px">
+      ${li(Object.entries(ty.hierarchy).filter(([k,v])=>v),([k,v])=>`<li><b>${k.toUpperCase()}</b> — ${esc(v)}</li>`)}</ul>`:''}
+  </div></section>
+
+  <section><div class="wrap">
+    <span class="num">05 · Logo</span><h2>Dirección de logo</h2>
+    <div class="grid g2">
+      <div class="card"><h3 style="margin-top:0">Concepto</h3><p class="soft">${esc(lg.concept)}</p>
+        ${lg.symbolism?`<p class="soft" style="margin-top:10px"><b>Simbolismo:</b> ${esc(lg.symbolism)}</p>`:''}</div>
+      <div class="card"><h3 style="margin-top:0">Reglas de uso</h3>
+        <ul class="clean">${li(lg.usage_notes,x=>`<li>${esc(x)}</li>`)}</ul></div>
+    </div>
+  </div></section>
+
+  <section><div class="wrap">
+    <span class="num">06 · Fotografía</span><h2>Estilo fotográfico</h2>
+    <ul class="clean">
+      ${ph.style?`<li><b>Estilo</b> — ${esc(ph.style)}</li>`:''}
+      ${ph.lighting?`<li><b>Luz</b> — ${esc(ph.lighting)}</li>`:''}
+      ${ph.composition?`<li><b>Composición</b> — ${esc(ph.composition)}</li>`:''}
+      ${ph.editing_style?`<li><b>Edición</b> — ${esc(ph.editing_style)}</li>`:''}
+      ${ph.color_treatment?`<li><b>Tratamiento de color</b> — ${esc(ph.color_treatment)}</li>`:''}
+      ${(ph.avoid||[]).length?`<li><b>Evitar</b> — ${esc((ph.avoid||[]).join(' · '))}</li>`:''}
+    </ul>
+    ${(ph.subjects||[]).length?`<div style="margin-top:16px">${list(ph.subjects)}</div>`:''}
+  </div></section>
+
+  <section class="kv"><div class="wrap">
+    <span class="num">07 · Keyvisual</span><h2>La marca en acción</h2>
+    <div class="grid g3">
+      ${li(kv.post_types,x=>`<div class="card"><b>${esc(x.name)}</b><p class="soft" style="margin-top:8px;font-size:14px">${esc(x.composition)}</p></div>`)}
+    </div>
+    ${(kv.support_elements||[]).length?`<h3>Elementos de apoyo</h3><div>${list(kv.support_elements)}</div>`:''}
+    ${kv.instagram_grid?`<h3>Grid de Instagram</h3><p class="soft">${esc(kv.instagram_grid)}</p>`:''}
+  </div></section>
+
+  <section><div class="wrap">
+    <span class="num">08 · Aplicaciones</span><h2>Touchpoints</h2>
+    <ul class="clean">${li(appEntries,([k,v])=>`<li><b>${esc(appNames[k]||k)}</b> — ${esc(v)}</li>`)}</ul>
+  </div></section>
+
+  ${web.ui_style||web.cta_primary?`<section><div class="wrap">
+    <span class="num">09 · Web</span><h2>Especificación web</h2>
+    <ul class="clean">
+      ${web.ui_style?`<li><b>Estilo UI</b> — ${esc(web.ui_style)}</li>`:''}
+      ${web.layout_hint?`<li><b>Layout</b> — ${esc(web.layout_hint)}</li>`:''}
+      ${(web.effects_hint||[]).length?`<li><b>Efectos</b> — ${esc(web.effects_hint.join(' · '))}</li>`:''}
+      ${(web.pages||[]).length?`<li><b>Páginas</b> — ${esc(web.pages.join(' · '))}</li>`:''}
+      ${web.cta_primary?`<li><b>CTA principal</b> — ${esc(web.cta_primary)}</li>`:''}
+    </ul>
+  </div></section>`:''}
+
+  <footer>MANUAL INTERNO DE MARCA · ${esc(B.brand.name)} · No distribuir públicamente<br>
+  Generado con el branding skill · Compatible con brand-to-web</footer>`;
+
+  // ---- Copiar HEX ----
+  document.addEventListener('click', e=>{
+    const sw=e.target.closest('[data-hex]'); if(!sw) return;
+    const hex=sw.getAttribute('data-hex');
+    (navigator.clipboard?navigator.clipboard.writeText(hex):Promise.reject()).catch(()=>{
+      const ta=document.createElement('textarea'); ta.value=hex; document.body.appendChild(ta); ta.select();
+      document.execCommand('copy'); ta.remove();
+    });
+    const toast=document.getElementById('toast'); toast.textContent=hex+' copiado';
+    toast.classList.add('on'); setTimeout(()=>toast.classList.remove('on'),1400);
+  });
+})();
+</script>
+</body>
+</html>

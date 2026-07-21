@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VEREDA — Café colombiano de origen · Sevilla, Valle del Cauca</title>
+  <meta name="description" content="Café colombiano de origen de una finca cerca de Sevilla, Valle del Cauca. Tostión media, notas de chocolate, frutos secos y panela. El origen se honra compartiéndolo." />
+  <meta property="og:title" content="VEREDA — Café colombiano de origen" />
+  <meta property="og:description" content="Un territorio de Colombia en tu mesa, para acompañar las conversaciones que importan." />
+  <meta property="og:image" content="assets/img/post-origen.webp" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@300;400;500&display=swap" />
+
+  <link rel="preload" as="image" href="assets/img/hero-campesino.webp" fetchpriority="high" />
+  <link rel="stylesheet" href="styles.css?v=20260720" />
+</head>
+<body>
+  <a class="skip-link" href="#cafe">Ir al contenido</a>
+
+  <!-- barra anuncio -->
+  <div class="topbar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 7h13v8H3z"/><path d="M16 10h3l2 3v2h-5z"/><circle cx="7" cy="17" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg>
+    <span>Envíos a toda Colombia</span>
+    <span class="sep hide-sm">·</span>
+    <span class="hide-sm">El origen se honra compartiéndolo</span>
+  </div>
+
+  <!-- nav -->
+  <header class="nav" data-nav>
+    <a class="brand" href="#top" aria-label="VEREDA inicio">
+      <img class="brand-logo" src="assets/img/logo.png" alt="VEREDA" width="130" height="34" />
+    </a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#cafe">El Café</a>
+      <a href="#ritual">El Ritual</a>
+      <a href="#origen">El Origen</a>
+      <a href="#colecciones">Colecciones</a>
+      <a href="#hospitalidad">Hospitalidad</a>
+    </nav>
+    <button class="nav-cart" data-cart-open aria-label="Abrir carrito">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 8h12l-1 12a2 2 0 0 1-2 1.8H9A2 2 0 0 1 7 20L6 8Z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg>
+      <span>Carrito</span>
+      <span class="nav-cart-count" data-cart-count hidden>0</span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- hero -->
+    <header class="hero">
+      <div class="wrap hero-inner">
+        <div>
+          <span class="kicker rv">Café de origen · Sevilla, Valle del Cauca</span>
+          <h1 class="hero-title rv">El origen se honra <em>compartiéndolo</em>.</h1>
+          <p class="hero-sub rv">Un territorio de Colombia en tu mesa, para acompañar las conversaciones que importan. Tostado y empacado por manos reales.</p>
+          <div class="hero-cta rv">
+            <a class="btn btn-primary" href="#cafe">Conocer el café
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ink" href="#origen">La historia</a>
+          </div>
+        </div>
+        <div class="hero-media rv">
+          <figure class="hero-photo">
+            <img src="assets/img/hero-campesino.webp" alt="Caficultor con ruana observando las montañas de café al amanecer, con una taza en las manos" fetchpriority="high" width="1600" height="1600" />
+          </figure>
+          <svg class="hero-badge" viewBox="0 0 200 200" aria-hidden="true">
+            <g class="spin">
+              <defs><path id="cir" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
+              <circle cx="100" cy="100" r="94" fill="#EFE7DA"/>
+              <circle cx="100" cy="100" r="88" class="ink-line" stroke-width="1"/>
+              <circle cx="100" cy="100" r="82" class="ink-line" stroke-width="1"/>
+              <text font-family="'Jost','Century Gothic',sans-serif" font-size="12.5" letter-spacing="3.4" fill="#6B4A35" font-weight="500">
+                <textPath href="#cir" startOffset="0%">CAFÉ DE ORIGEN · SEVILLA, VALLE · 340 g · </textPath>
+              </text>
+            </g>
+            <path class="ink-line ink-palma" stroke-width="1.4" d="M100 138 V96"/>
+            <path class="ink-line ink-palma" stroke-width="1.4" d="M100 100 C86 92 76 78 72 66 M100 100 C94 82 92 70 95 58 M100 100 C106 82 108 70 111 60 M100 100 C114 92 124 78 128 66 M100 100 C100 84 100 72 100 60"/>
+            <circle cx="100" cy="150" r="2.4" class="fill-cereza"/>
+          </svg>
+        </div>
+      </div>
+      <svg class="hero-scene" viewBox="0 0 1440 240" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <path class="ink-line" stroke-width="1.4" opacity=".5" d="M0 150 L150 96 L280 138 L430 78 L560 132 L700 92 L860 140 L1010 84 L1170 134 L1300 96 L1440 138"/>
+        <path class="ink-line" stroke-width="1.6" d="M0 200 L180 132 L340 186 L520 120 L690 182 L880 128 L1060 188 L1240 132 L1440 186"/>
+        <g class="ink-line ink-palma" stroke-width="1.5">
+          <path d="M245 200 V150"/><path d="M245 154 C233 146 226 136 223 127 M245 154 C241 142 240 133 242 123 M245 154 C249 142 250 133 251 124 M245 154 C258 146 264 136 267 127"/>
+          <path d="M1195 200 V144"/><path d="M1195 148 C1183 140 1176 130 1173 121 M1195 148 C1191 136 1190 127 1192 117 M1195 148 C1199 136 1200 127 1201 118 M1195 148 C1208 140 1214 130 1217 121"/>
+        </g>
+        <path class="ink-line" stroke-width="1.5" stroke-dasharray="2 8" opacity=".8" d="M-20 232 C260 210 360 236 620 224 C900 210 1040 238 1460 220"/>
+      </svg>
+    </header>
+
+    <!-- confianza -->
+    <section class="trust">
+      <div class="wrap trust-grid">
+        <div class="trust-item rv">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M20 5 L20 30"/><path d="M20 14 C13 11 9 6 8 2 M20 14 C24 8 30 6 33 6 C33 12 28 16 22 16"/><circle cx="20" cy="34" r="2.2" fill="currentColor" stroke="none"/></svg>
+          <b>Origen trazable</b><span>Una finca cerca de Sevilla, Valle</span>
+        </div>
+        <div class="trust-item rv">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M10 22 h20 l-1.5 10 a2 2 0 0 1-2 1.7H13.5a2 2 0 0 1-2-1.7z"/><path d="M14 22c-2-5 1-7 0-11M20 22c-2-6 2-8 0-12M26 22c-2-5 1-7 0-11"/></svg>
+          <b>Tostión propia</b><span>Tostado y molido por nosotros</span>
+        </div>
+        <div class="trust-item rv">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M20 4l3.4 7 7.6 1-5.5 5.4 1.3 7.6L20 28l-6.8 4 1.3-7.6L9 19l7.6-1z"/></svg>
+          <b>Tercer puesto</b><span>Entre los mejores cafés de Colombia</span>
+        </div>
+        <div class="trust-item rv">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 26h22l3-5h5v7h-4M9 30a2.5 2.5 0 1 0 0-.1M25 30a2.5 2.5 0 1 0 0-.1"/></svg>
+          <b>Envíos al país</b><span>A todo Colombia, con guía</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- El Café -->
+    <section class="sec" id="cafe">
+      <div class="wrap">
+        <span class="kicker rv">La colección actual</span>
+        <h2 class="h-sec rv">El café que acompaña, <em>sin robarse la mesa</em>.</h2>
+        <div class="cafe-grid">
+          <figure class="bag-frame rv">
+            <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+            <img src="assets/img/empaque.webp" alt="Bolsa de Café VEREDA Origen de 340 g junto a una taza de café y granos, con luz cálida de ventana" width="1024" height="1024" loading="lazy" />
+          </figure>
+          <div>
+            <h3 class="prod-name rv" data-product-title>Café VEREDA · Origen</h3>
+            <p class="lead rv">Del legado de don José, que en 1998 vendió su Jeep Willys y sembró café cerca de Sevilla, Valle del Cauca. En taza: chocolate profundo, frutos secos y un dulzor de panela, con un final que acompaña la conversación.</p>
+            <ul class="notes rv"><li>Variedad Castillo</li><li>1.750 msnm</li><li>Suave lavado</li><li>Tostión media</li></ul>
+            <p class="prod-price rv"><span data-product-price>$55.000</span> <small>COP · 340 g</small></p>
+            <div class="rv">
+              <p class="option-label">Molienda</p>
+              <div class="buy-row">
+                <div class="pill-group" data-variant-pills>
+                  <button class="pill on" type="button" data-variant-title="Molido">Molido</button>
+                </div>
+                <div class="qty" data-qty>
+                  <button type="button" data-qty-minus aria-label="Reducir cantidad">−</button>
+                  <span data-qty-value aria-live="polite">1</span>
+                  <button type="button" data-qty-plus aria-label="Aumentar cantidad">+</button>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-add" type="button" data-add-to-cart>Añadir al carrito
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+              <p class="product-feedback" data-product-feedback role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- El Ritual -->
+    <section class="sec ritual" id="ritual">
+      <div class="wrap">
+        <span class="kicker light rv">El ritual</span>
+        <h2 class="h-sec rv">La pausa <em>bien servida</em>.</h2>
+        <p class="lead rv">Tres pasos, sin ciencia ni afán. El café se disfruta, no se rinde examen.</p>
+        <div class="steps">
+          <div class="step rv">
+            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M18 20h24l-2 8H20z"/><path d="M22 28l1 14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2l1-14"/><path d="M26 14c-1 3 1 4 0 7M34 14c-1 3 1 4 0 7"/></svg>
+            <span class="n">i</span><h3>Muele fresco</h3>
+            <p>Molido medio para greca o prensa. Pídelo ya molido si prefieres.</p>
+          </div>
+          <div class="step rv">
+            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 16h20v6H20z"/><path d="M22 22l2 22a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2l2-22"/><path d="M25 32h10"/><path d="M44 24c4 1 6 4 4 8s-6 2-6 2"/></svg>
+            <span class="n">ii</span><h3>Agua a punto</h3>
+            <p>Casi hirviendo, no hervida. Deja que repose un momento.</p>
+          </div>
+          <div class="step rv">
+            <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M16 30h24v6a10 10 0 0 1-10 10h-4a10 10 0 0 1-10-10z"/><path d="M40 32h5a4 4 0 0 1 0 8h-5"/><path d="M24 20c-1 3 1 4 0 7M32 20c-1 3 1 4 0 7"/></svg>
+            <span class="n">iii</span><h3>Siéntate</h3>
+            <p>Sirve, respira y conversa. Ese es el punto de todo esto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- El Origen -->
+    <section class="sec" id="origen">
+      <div class="wrap">
+        <span class="kicker rv">El origen y el legado</span>
+        <h2 class="h-sec rv">La historia que <em>sostiene la taza</em>.</h2>
+        <div class="origen-grid">
+          <article class="story rv">
+            <figure class="story-photo"><img src="assets/img/cosecha.webp" alt="Caficultor recogiendo cerezas de café maduras en un canasto de mimbre" width="1300" height="1300" loading="lazy" /></figure>
+            <h3>Don José</h3>
+            <p>En 1998, don José era conductor de un Jeep Willys. Un día eligió dejar de andar caminos para sembrarlos: vendió el Willys y compró una finca cerca de Sevilla, Valle del Cauca.</p>
+            <p>Hoy la finca es un legado vivo. Sus hijas y su familia sostienen la siembra y la cosecha con la constancia y el detalle que él enseñó.</p>
+          </article>
+          <article class="story rv">
+            <figure class="story-photo"><img src="assets/img/hero-campesino.webp" alt="Caficultor contemplando las montañas de café al amanecer con una taza en las manos" width="1600" height="1600" loading="lazy" /></figure>
+            <h3>La visión de Bayron</h3>
+            <p>Bayron Londoño nació en Nariño, Antioquia, y aprendió a amar la montaña recorriéndola. VEREDA nace de su propósito: dar a conocer la Colombia buena por medio del café.</p>
+            <p>No desde el marketing, sino desde la experiencia real: el café como punto de encuentro donde nacen relaciones, alianzas y proyectos.</p>
+          </article>
+        </div>
+        <p class="origen-close rv">Este café tiene familia, tiene territorio, tiene disciplina<br>y una historia que se sostiene con manos reales.</p>
+      </div>
+    </section>
+
+    <!-- Colecciones -->
+    <section class="sec" id="colecciones">
+      <div class="wrap">
+        <span class="kicker rv">Cada bolsa, una pieza de colección</span>
+        <h2 class="h-sec rv">Formas de conocer <em>Colombia</em>.</h2>
+        <div class="col-grid">
+          <article class="col-card on rv">
+            <svg class="col-stamp" viewBox="0 0 52 52" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="26" cy="26" r="22"/><path d="M26 40V22M26 26c-6-3-9-8-10-13M26 26c4-6 10-8 14-8-0 6-5 11-11 11"/></svg>
+            <span class="tag">Disponible</span><h3>VEREDA · Origen</h3>
+            <p>El lote actual de la finca: galardonado con el tercer puesto entre los mejores cafés de Colombia. Un origen que se descubre.</p>
+            <a class="btn btn-small" href="#cafe">Ver el café</a>
+          </article>
+          <article class="col-card rv">
+            <svg class="col-stamp" viewBox="0 0 52 52" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M26 46V20M26 26c-8-4-13-11-14-19 8 0 15 4 18 11M26 26c3-8 10-13 18-13-1 9-7 15-15 17"/></svg>
+            <span class="tag">En camino</span><h3>VEREDA · Raíz</h3>
+            <p>La línea permanente: balanceada, suave, confiable. El café que sostiene las conversaciones importantes.</p>
+          </article>
+          <article class="col-card rv">
+            <svg class="col-stamp" viewBox="0 0 52 52" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 38 L20 22 L30 34 L40 20 L48 30"/><path d="M4 44h44"/><path d="M14 30v-6"/></svg>
+            <span class="tag">En camino</span><h3>Colección Territorio</h3>
+            <p>Cada edición narra un territorio de Colombia con ilustración propia. Sevilla, la primera, honra la finca de origen.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- La Pausa -->
+    <section class="sec pausa">
+      <div class="wrap">
+        <svg class="mark" viewBox="0 0 46 46" fill="currentColor" aria-hidden="true"><path d="M8 26c0-8 5-14 13-16l1 4c-5 2-8 6-8 11h6v11H8zM26 26c0-8 5-14 13-16l1 4c-5 2-8 6-8 11h6v11H26z"/></svg>
+        <blockquote>Un café que se disfruta, que invita a repetir, que sostiene la conversación.</blockquote>
+        <cite>Ficha del lote · Tostión media</cite>
+      </div>
+    </section>
+
+    <!-- Hospitalidad -->
+    <section class="sec b2b" id="hospitalidad">
+      <div class="wrap b2b-grid">
+        <div>
+          <span class="kicker light rv">Hospitalidad y experiencias</span>
+          <h2 class="h-sec rv">VEREDA no decora la experiencia. <em>La sostiene.</em></h2>
+          <p class="b2b-lead rv">Para hoteles boutique, alojamientos con enfoque experiencial y marcas que regalan con sentido.</p>
+          <ul class="b2b-list">
+            <li class="rv"><b>Kits de bienvenida</b><span>Habitaciones, cabañas y glampings que reciben con territorio.</span></li>
+            <li class="rv"><b>Amenity premium</b><span>El café como gesto real de hospitalidad, no como cortesía genérica.</span></li>
+            <li class="rv"><b>Regalos corporativos</b><span>Cierres de año y alianzas que se recuerdan: Colombia para llevar a casa.</span></li>
+          </ul>
+          <div class="rv" style="margin-top:2.2rem"><a class="btn btn-cream" href="mailto:coffeevereda@gmail.com?subject=Hospitalidad%20VEREDA">Escríbenos por correo</a></div>
+        </div>
+        <figure class="b2b-photo rv"><img src="assets/img/escena-3.webp" alt="Caja de regalo VEREDA en kraft con ilustración botánica, junto a una taza de café" width="1300" height="1300" loading="lazy" /></figure>
+      </div>
+    </section>
+
+    <!-- Síguenos -->
+    <section class="sec ig" id="siguenos">
+      <div class="wrap">
+        <span class="kicker center rv">Síguenos</span>
+        <h2 class="h-sec center rv" style="margin-inline:auto;text-align:center">Un territorio de Colombia, <em>bolsa a bolsa</em>.</h2>
+        <div class="ig-grid rv">
+          <a class="ig-item" href="#" aria-label="Instagram VEREDA"><img src="assets/img/post-origen.webp" alt="Bolsa de café VEREDA sobre mesa de madera con taza humeante" loading="lazy" width="1300" height="1300" /></a>
+          <a class="ig-item" href="#" aria-label="Instagram VEREDA"><img src="assets/img/caminos.webp" alt="Caficultora caminando por un sendero entre cafetales al amanecer" loading="lazy" width="1300" height="1300" /></a>
+          <a class="ig-item" href="#" aria-label="Instagram VEREDA"><img src="assets/img/cosecha.webp" alt="Manos recogiendo cerezas de café maduras" loading="lazy" width="1300" height="1300" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="sec news">
+      <div class="wrap">
+        <span class="kicker center rv">Únete a la vereda</span>
+        <h2 class="rv">Historias de origen, <em>cosechas y pausas</em>.</h2>
+        <form class="rv" data-news>
+          <input type="email" name="email" placeholder="Tu correo" aria-label="Tu correo" required />
+          <button class="btn btn-primary" type="submit">Quiero recibirlas</button>
+        </form>
+        <small data-news-msg>Sin spam. Solo cuando hay algo que vale la pena contar.</small>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="foot">
+    <svg class="foot-hills" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 70 L0 34 C220 8 360 46 620 30 C900 12 1060 48 1440 22 L1440 70 Z"/></svg>
+    <div class="wrap foot-top">
+      <div class="foot-brand">
+        <img class="foot-logo" src="assets/img/logo.png" alt="VEREDA" width="120" height="32" loading="lazy" />
+        <p>El origen se honra compartiéndolo.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15 8h-2a2 2 0 0 0-2 2v12M8 13h6"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>La tienda</h4>
+        <a href="#cafe">El Café</a><a href="#colecciones">Colecciones</a><a href="#ritual">El Ritual</a><a href="#hospitalidad">Hospitalidad</a>
+      </div>
+      <div class="foot-col">
+        <h4>La marca</h4>
+        <a href="#origen">El Origen</a><a href="terminos.html">Términos y condiciones</a><a href="privacidad.html">Tratamiento de datos</a>
+      </div>
+      <div class="foot-col">
+        <h4>Escríbenos</h4>
+        <a href="mailto:coffeevereda@gmail.com">coffeevereda@gmail.com</a>
+        <span class="foot-plain">Tienda 100% en línea</span>
+        <div class="pays"><span>VISA</span><span>Mastercard</span><span>PSE</span><span>Nequi</span><span>Bold</span></div>
+      </div>
+    </div>
+    <div class="wrap foot-legal">
+      <span>© <span data-year>2026</span> VEREDA · Café de origen colombiano</span>
+      <span>Sevilla, Valle del Cauca · Colombia</span>
+    </div>
+  </footer>
+
+  <!-- Carrito -->
+  <div class="cart-overlay" data-cart-overlay hidden></div>
+  <aside class="cart" data-cart aria-label="Carrito de compras" hidden>
+    <header class="cart-head">
+      <h2>Tu pedido</h2>
+      <button class="cart-close" data-cart-close aria-label="Cerrar carrito">×</button>
+    </header>
+    <div class="cart-body" data-cart-lines>
+      <p class="cart-empty">Tu carrito está en calma.<br /><a href="#cafe" data-cart-close-link>Conoce el café →</a></p>
+    </div>
+    <footer class="cart-foot" data-cart-foot hidden>
+      <p class="cart-subtotal">Subtotal <strong data-cart-subtotal>$0</strong></p>
+      <p class="cart-note">El envío se calcula al finalizar la compra, en el pago seguro de Shopify.</p>
+      <button class="btn btn-primary btn-block" type="button" data-checkout>Finalizar compra</button>
+    </footer>
+  </aside>
+
+  <script defer src="lib/manifest.js?v=20260720"></script>
+  <script defer src="main.js?v=20260720"></script>
+</body>
+</html>

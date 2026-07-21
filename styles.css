@@ -35,6 +35,7 @@ body{
   -webkit-font-smoothing:antialiased; overflow-x:clip;
 }
 body img,body svg{ display:block; max-width:100%; }
+body img{ height:auto; }
 body a{ color:inherit; text-decoration:none; }
 body h1,body h2,body h3{ font-family:var(--serif); font-weight:600; line-height:1.06; text-wrap:balance; margin:0; }
 body p{ margin:0; text-wrap:pretty; }
@@ -341,3 +342,24 @@ body :focus-visible{ outline:2px solid var(--panela); outline-offset:3px; border
 .legal-back{ display:inline-block; margin-bottom:2rem; font-size:.9rem; color:var(--tinta-soft); }
 .legal-back:hover{ color:var(--tierra); }
 .legal-foot{ text-align:center; padding:2rem var(--gap); border-top:1px solid var(--linea); color:var(--tinta-soft); font-size:.82rem; }
+
+/* ============================================================
+   Menú móvil + acciones de nav (añadido)
+   ============================================================ */
+.nav{ position:sticky; }
+.nav-actions{ display:flex; align-items:center; gap:.5rem; }
+.nav-toggle{ display:grid; place-items:center; width:44px; height:44px; border:1.5px solid var(--tierra); border-radius:12px; color:var(--tierra); transition:background .25s var(--ease); }
+.nav-toggle:hover{ background:#6B4A3512; }
+.nav-toggle svg{ width:22px; height:22px; }
+.nav-toggle .ico-close{ display:none; }
+.nav.is-open .nav-toggle .ico-open{ display:none; }
+.nav.is-open .nav-toggle .ico-close{ display:block; }
+@media (min-width:940px){ .nav-toggle{ display:none; } }
+@media (max-width:939px){
+  .nav-links{ position:absolute; top:100%; left:0; right:0; flex-direction:column; gap:0; padding:.4rem var(--gap) 1.1rem; background:var(--papel-2); border-bottom:1px solid var(--linea); box-shadow:0 22px 30px -22px rgba(31,29,26,.35); }
+  .nav.is-open .nav-links{ display:flex; }
+  .nav-links a{ padding:1rem 0; border-bottom:1px solid var(--linea); font-size:1.05rem; color:var(--tinta); }
+  .nav-links a::after{ display:none; }
+}
+.social-handle{ align-self:center; font-size:.9rem; color:#EFE7DAcc; border-bottom:1px solid #EFE7DA40; padding-bottom:1px; }
+.social-handle:hover{ color:var(--papel-2); }
